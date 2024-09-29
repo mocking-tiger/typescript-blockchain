@@ -1,1 +1,2 @@
-const greetings = () => console.log("hi");
+import { init } from "./myPackage";
+console.log(init({ debug: true, url: "gd" }));
